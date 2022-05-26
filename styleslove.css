@@ -1,0 +1,39 @@
+body {
+  background-color: pink;
+  color: rgb(89, 23, 151);
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.avatarnika {
+  width: 200px;
+  border-radius: 20%;
+  box-shadow: 4px 4px 14px;
+}
+.hobbyv {
+  background: rgb(221, 223, 84);
+  padding: 5px;
+  border: 3px;
+  border-radius: 20%;
+  margin: 25px;
+}
+h1 {
+  color: rgb(211, 53, 106);
+}
+.alllove {
+  margin: auto;
+  max-width: 750px;
+}
+.infov p {
+  color: black;
+  font-style: italic;
+  margin: 0px;
+  font-weight: normal;
+}
+.contactv {
+  background: rgb(226, 139, 82);
+  padding: 5px;
+  border-radius: 20%;
+  border: 3px;
+  margin: 25px;
+}

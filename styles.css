@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(131, 226, 245);
+  color: #324;
+
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  color: rgb(55, 90, 146);
+}
+.avatar {
+  height: 300px;
+  width: 250px;
+  border-radius: 20%;
+  margin-top: 70px;
+  box-shadow: 4px 4px 14px;
+}
+.info p {
+  color: black;
+  margin: 10px;
+  font-style: italic;
+  font-weight: normal;
+  /*text-decoration: underline;*/
+}
+.allbody {
+  max-width: 750px;
+  margin: auto;
+}
+.hobbys {
+  background: rgb(80, 165, 239);
+  padding: 5px;
+  border-radius: 20%;
+  border: 3px;
+  margin: 25px;
+}
+.mylove {
+  background: rgb(210, 245, 104);
+  height: 150px;
+  padding: 5px;
+  border-radius: 20%;
+  /*border: 3px;*/
+  margin: 25px;
+}
+.meet {
+  margin: 25px;
+}
+
+@media (max-width: 750px) {
+  .info p {
+    display: block;
+  }
+}
+.hobbys h2 {
+  padding-left: 30px;
+}
+
+.mylove h2 {
+  padding-left: 30px;
+}
+.hobbys li {
+  margin-left: 10%;
+}
+
+.mylove p {
+  margin-left: 10%;
+}
+.info {
+  display: flex;
+  margin: 20px;
+}
+.infow {
+  margin: 0;
+  padding-top: 70px;
+  padding-left: 50px;
+}
+a {
+  color: rgb(63, 67, 71);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(113, 219, 86);
+}
+a:visited {
+  color: rgb(73, 91, 92);
+}
+.meet h2 {
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: rgb(45, 79, 86);
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(81, 79, 228);
+  color: black;
+  padding: 15px 0px 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+.btn {
+  background: black;
+  color: rgb(255, 255, 255);
+  padding: 5px 8px;
+  border: 2px dotted white;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
