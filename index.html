@@ -93,5 +93,39 @@
         </form>
       </div>
     </div>
-  </body>
+  
+<script>
+  
+  window.addEventListener("DOMContentLoaded", () => {
+    const greeting = document.createElement("div");
+    greeting.textContent = "Добро пожаловать на моё резюме!";
+    greeting.style.position = "fixed";
+    greeting.style.top = "10px";
+    greeting.style.right = "10px";
+    greeting.style.background = "#222";
+    greeting.style.color = "#fff";
+    greeting.style.padding = "10px 15px";
+    greeting.style.borderRadius = "8px";
+    greeting.style.boxShadow = "0 0 10px rgba(0,0,0,0.5)";
+    greeting.style.zIndex = "1000";
+    document.body.appendChild(greeting);
+
+    setTimeout(() => {
+      greeting.remove();
+    }, 3000); 
+  });
+
+  
+  const inputs = document.querySelectorAll("input, textarea");
+  inputs.forEach((el) => {
+    el.addEventListener("focus", () => {
+      el.style.outline = "2px solid #ffa500";
+    });
+    el.addEventListener("blur", () => {
+      el.style.outline = "none";
+    });
+  });
+</script>
+
+</body>
 </html>
